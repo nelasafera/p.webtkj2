@@ -1,33 +1,71 @@
 <html>
     <head>
-        <title>Formulir Data Diri</title>
-    <head>
+     
+        <tittle><h1>FORM BIODATA DIRI</h1></tittle>
+    </head>
     <body>
-        <form>     
-    <!--menampilkan menu-->
-    Nama :
-    <br>
-    <input type="text" name="nama" size="50">
-    <br>
-    Kelas :
-    <br>
-    <input type="text" name="kelas" size="20">
-    <br>
-    No. Absen :
-    <br>
-    <input type="text" name="no. absen" size="20"> 
-    <br>
-    Jurusan :
-    <br>
-    <input type="text" name="jurusan" size="40">
-    <br>
-    Jenis kelamin Anda :
-<br>
-Pria:
-<input type="radio" name="Sex" value="pria">
-<br>
-Wanita:
-<input type="radio" name="Sex" value="wanita" checked>
+    <form>
+        <b><strong >Nama:</strong></b>
+        <input type="text" name="Nama">
+        <br>
+        <b><strong >Kelas:</strong></b>
+        <input type="text" name="Kelas">
+        <br>
+        <b><strong >No. Absen:</strong></b>
+        <input type="text" name="No absen">
+        <br>
+        <b><strong >Username:</strong></b>
+        <input type="text" name="Username">
+        <br>
+        <b><strong >Password:</strong></b>
+        <input type="password" name="Password">
+        <br>
     
-    <input type="submit" value="kirim">
-    <input type="reset" value="hapus">
+        <b><strong >Jenis kelamin:</strong></b>
+        <input type="radio" name="Jenis kelamin" value="laki-laki"> 
+        Laki-laki
+        <input type="radio" name="Jenis kelamin" value="perempuan">
+        Perempuan
+        
+        <br>
+        <b><strong >
+        Hobi:</strong></b>
+        <input type="checkbox" name="text" value="Membaca Novel">Membaca
+        <input type="checkbox" name="text" value="Mendengarkan Musik">Menulis
+        <input type="checkbox" name="text" value="Mengoding">Mengoding
+        <br>
+    
+    	<hr color="black">
+        <b><strong >Deskripsikan Tentang Diri Anda:</strong></b>
+        <br>
+        <textarea rows="15" cols="40"></textarea>
+        <br>
+
+        <hr color="black">
+        <p> Darimana anda mendengar kami?
+        <br>
+        <b><strong>Kelas Industri:</strong></b>
+        <br>
+        <select name="Pilih Kelas Industri">
+        <option value="System Administrator">System Administrator
+        <option value="Fiber Optik Engineer">Fiber Optik Engineer 
+        <option value="Wireless Engineer" selected>Wireless Engineer
+        <option value="Network Security Engineer">Network Security Engineer 
+        </select>
+         <br>
+
+        <select name="darimana_mendengar_kami">
+        <option value="dari_dalam_kubur">Dari dalam kubur</option>
+        <option value="dari_teman">Dari teman</option>
+        <option value="dari_media_sosial">Dari media sosial</option>
+        <option value="dari_iklan">Dari iklan</option>
+        <option value="dari_lainnya">Dari lainnya</option>
+        </select>
+        <br>
+
+<button type="submit">DAFTAR</button>
+<button type="reset">RESET</button>
+
+    </form>
+    </body>
+</html>
