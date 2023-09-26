@@ -1,0 +1,67 @@
+<html>
+
+<head>
+  
+  <title>Formulir dengan Tombol dan Fieldset</title>
+</head>
+<body>
+
+  <form>
+
+<p>Nama depan: &nbsp;&nbsp;&nbsp;
+
+<input type="text" name="namadepan">
+
+<br>
+
+Nama belakang:
+
+<input type="text" name="namabelakang">
+
+<br>
+
+Password: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<input type="password" name="password">
+
+</p>
+
+
+
+    <!-- Fieldset 1 -->
+    <fieldset>
+      <legend>Pilih Jenis Kelamin</legend>
+
+      <input type="radio" name="jenis_kelamin" value="laki-laki"> Laki-laki
+      <input type="radio" name="jenis_kelamin" value="perempuan"> Perempuan
+    </fieldset>
+
+    <!-- Fieldset 2 -->
+    <fieldset>
+      <legend>Pilih Hobi</legend>
+
+      <input type="checkbox" name="hobi" value="membaca"> Membaca
+      <input type="checkbox" name="hobi" value="menulis"> Menulis
+      <input type="checkbox" name="hobi" value="melukis"> Melukis
+    </fieldset>
+
+    <!-- Fieldset 3 -->
+    <fieldset>
+      <legend>Pilih Negara Asal</legend>
+
+      <select name="negara_asal">
+        <option value="indonesia">Indonesia</option>
+        <option value="malaysia">Malaysia</option>
+        <option value="singapore">Singapura</option>
+        <option value="thailand">Thailand</option>
+      </select>
+    </fieldset>
+
+    <input name="btnKirim" type="submit"id="btnKirim" value="Kirim">
+
+<input name="btnCancel" type="reset"id="btnCancel" value="Cancel">
+
+  </form>
+
+</body>
+</html>
