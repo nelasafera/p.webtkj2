@@ -1,25 +1,23 @@
-.pink{
-    color:aliceblue;
-    background: gray;
-    padding: 5px;
-    
+.pink {
+  color: aliceblue;
+  background: gray;
+  padding: 5px;
 }
 
 .newroman {
-    font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 #header {
-    background: seagreen;
-    color:white;
-    height: 100px;
-    padding: 50px;
+  background: seagreen;
+  color: white;
+  height: 100px;
+  padding: 50px;
 }
 
-input[type=text]{
-    background: none;
-    color: cyan;
-    padding: 10px;
-    border: 1px 
-
+input[type="text"] {
+  background: none;
+  color: cyan;
+  padding: 10px;
+  border: 1px;
 }
