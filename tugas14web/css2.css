@@ -1,0 +1,21 @@
+.teal-paragraph {
+    color: teal;
+}
+
+.colorful-paragraph {
+    color: #4caf50; /* Green */
+    color: rgb(255, 99, 71); /* Tomato */
+    color: rgba(75, 0, 130, 0.8); /* Indigo with alpha */
+    color: hsl(120, 100%, 50%); /* Lime */
+    color: hsla(240, 100%, 50%, 0.7); /* Blue with alpha */
+}
+
+.hover-link {
+    color: #007bff; /* Blue */
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.hover-link:hover {
+    color: #ff4500; /* OrangeRed */
+}
